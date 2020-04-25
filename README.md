@@ -1,3 +1,6 @@
+### Live URL
+https://zubaer93.github.io/covid-19-infograph/
+
 ### Description
 
 A React JS based COVID-19 tracker application. User can see global affected, recovered and death numbers in different cards along with daily affected chart. Also by selecting a country user can get the country based affected, recovered and death number. Unfortunately country based daily chart is not availabale due to the limitaion of the api. Only bar chart availabale for selected countries.
