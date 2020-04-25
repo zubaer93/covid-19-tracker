@@ -1,4 +1,4 @@
-### Live URL
+### Preview URL
 https://zubaer93.github.io/covid-19-infograph/
 
 ### Description
