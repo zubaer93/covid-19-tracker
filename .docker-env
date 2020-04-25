@@ -1,0 +1,5 @@
+VIRTUAL_PORT=80
+VIRTUAL_HOST=local.react.com
+CHOKIDAR_USEPOLLING=true
+
+

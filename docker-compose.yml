@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+
+  react-docker:
+    container_name: react-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    expose:
+      - 3000
+    stdin_open: true
+    tty: true
+    env_file:
+      - .docker-env
+
+networks:
+  default:
+    external:
+      name: styline
